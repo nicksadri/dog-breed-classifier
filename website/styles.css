@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 282px;
+    padding: 10px;
+}
+
+#clear {
+    background-color: lightcoral;
+}
+
+#predict {
+    background-color: lightgreen;
+}
+
+#canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+}
+
+#result {
+    font-size: 1.3em;
+}
